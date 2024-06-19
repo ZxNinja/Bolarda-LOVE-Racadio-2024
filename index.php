@@ -65,7 +65,7 @@ else {
 				<div style="padding-top: 180px;">
 					<div style=" background-color: #dadbe6;">
 						<h1 style="margin: 0px;">Welcome To nita's online grocery</h1>
-						<h2>Most Convenient Store in 7th ave. Caloocan</h2>
+						<h2>Molino 2 Best Shop Ever!</h2>
 					</div>
 				</div>
 			</div>
