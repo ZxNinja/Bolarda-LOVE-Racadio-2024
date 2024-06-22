@@ -316,20 +316,6 @@ $del = $_POST['Delivery'];
 											</td>
 										</div>
 
-										<div>
-										<td>
-
-										<font style="italic" family="arial" size="5px" color="#169e">
-										Types of Delivery <br>
-										
-
-										 <input name="Delivery" required="required" value="Express Delivery +100php upon cash on delivery" type="radio"  placeholder="Mode Of Payment"> Express Delivery </br>
-										 <input name="Delivery" type="radio" value="Standard Delivery" required="required" placeholder="Mode Of Payment"> Standard Delivery </br>
-										 </font>
-
-
-										</td>
-										</div>
 
 
 										<div>
