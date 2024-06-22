@@ -47,7 +47,6 @@ if (isset($_POST['order'])) {
 $mbl = $_POST['mobile'];
 $addr = $_POST['address'];
 $quan = $_POST['Quantity'];
-$del = $_POST['Delivery'];
 //triming name
 	try {
 		if(empty($_POST['mobile'])) {
@@ -60,10 +59,6 @@ $del = $_POST['Delivery'];
 		}
 		if(empty($_POST['Quantity'])) {
 			throw new Exception('Quantity can not be empty');
-			
-		}
-		if(empty($_POST['Delivery'])) {
-			throw new Exception('Type of Delivery can not be empty');
 			
 		}
 
@@ -82,7 +77,7 @@ $del = $_POST['Delivery'];
 						";
 						//if (@mail($uemail_db,"eBuyBD Product Order",$msg, "From:eBuyBD <no-reply@ebuybd.xyz>")) {
 							
-						if(mysqli_query($con, "INSERT INTO orders (uid,pid,quantity,oplace,mobile,odate,delivery) VALUES ('$user','$poid',$quan,'$_POST[address]','$_POST[mobile]','$d','$del')")){
+						if(mysqli_query($con, "INSERT INTO orders (uid,pid,quantity,oplace,mobile,odate) VALUES ('$user','$poid',$quan,'$_POST[address]','$_POST[mobile]','$d')")){
 
 							//success message
 							
@@ -210,9 +205,6 @@ $del = $_POST['Delivery'];
 			echo '<h3 style="color:black;font-size:25px;"> Home Address: </h3>';
 			echo '<span style="color:#34ce6c;font-size:25px;">'.$uadd_db.'</span>';
 			
-			$del = $_POST['Delivery'] ;
-			echo '<h3 style="color:black;font-size:25px;">Types of Delivery:</h3>';
-			echo'<span style="color:#34ce6c;font-size:25px;">' .$del.'</span>';
 			$quan = $_POST['Quantity'];
 			echo '<h3 style="color:black;font-size:25px;"> Quantity: </h3>';
 			echo'<span style="color:#34ce6c;font-size:25px;">' .$quan.'</span>';
@@ -259,18 +251,6 @@ $del = $_POST['Delivery'];
 									</div>
 
 									<div>
-									<td>
-
-									<font style="italic" family="arial" size="5px" color="#169e">
-									Types of Delivery <br>
-									
-
-									 <input name="Delivery" required="required" value="Express Delivery +100php upon cash on delivery" type="radio"  placeholder="Mode Of Payment"> Express Delivery </br>
-									 <input name="Delivery" type="radio" value="Standard Delivery" required="required" placeholder="Mode Of Payment"> Standard Delivery </br>
-									 </font>
-
-
-									</td>
 									</div>
 
 
