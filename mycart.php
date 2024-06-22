@@ -57,11 +57,6 @@ $del = $_POST['Delivery'];
 			throw new Exception('Address can not be empty');
 			
 		}
-		if(empty($_POST['Delivery'])) {
-			throw new Exception('Type of Delivery can not be empty');
-			
-		}
-
 		
 		// Check if email already exists
 		
@@ -272,10 +267,6 @@ $del = $_POST['Delivery'];
 				echo '<span style="color:#34ce6c;font-size:25px;">' .$umob_db.'</span>';
 				echo '<h3 style="color:black;font-size:25px;"> Home Address: </h3>';
 				echo '<span style="color:#34ce6c;font-size:25px;">'.$uadd_db.'</span>';
-				
-				$del = $_POST['Delivery'] ;
-				echo '<h3 style="color:black;font-size:25px;">Types of Delivery:</h3>';
-				echo'<span style="color:#34ce6c;font-size:25px;">' .$del.'</span>';
 				
 				echo '<h3 style="color:#169E8F;font-size:35px;"> Total: Php '.$_SESSION['total'].' Php</h2>';
 				
