@@ -15,7 +15,7 @@ else {
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Welcome to nita's online grocery</title>
+		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -65,15 +65,19 @@ else {
 			<div class="home-welcome-text" style="background-image: url(image/background.jpg); height: 380px; ">
 				<div style="padding-top: 180px;">
 					<div style=" background-color: #dadbe6;">
-						<h1 style="margin: 0px;">Welcome To nita's online grocery</h1>
-						<h2>Tangina mo Bapor!!</h2>
+						
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="home-prodlist">
 			<div>
-				<h3 style="text-align: center;">Products Category</h3>
+			<div style="text-align: center;">
+    <a target="_top" href="">
+        <img src="https://blog.flamingtext.com/blog/2024/06/23/flamingtext_com_1719127841_408257602.png" textborder="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com">
+    </a>
+</div>
+
 			</div>
 			<div style="padding: 20px 30px; width: 85%; margin: 0 auto;">
 				<ul style="float: left;">

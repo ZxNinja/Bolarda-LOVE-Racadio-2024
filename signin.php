@@ -86,7 +86,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 						Signup email: ".$_POST['email']."
 						
 						";
-						//if (@mail($_POST['email'],"eBuyBD Activation Code",$msg, "From:eBuyBD <no-reply@ebuybd.xyz>")) {
+						//if (@mail($_POST['email'],"Group 8 Activation Code",$msg, "From:Group 8 <no-reply@Group 8.xyz>")) {
 							
 						$result = mysqli_query($con, "INSERT INTO user (firstName,lastName,email,mobile,address,password,confirmCode) VALUES ('$_POST[first_name]','$_POST[last_name]','$_POST[email]','$_POST[mobile]','$_POST[signupaddress]','$_POST[password]','$confirmCode')");
 						
@@ -96,8 +96,8 @@ $_POST['last_name'] = trim($_POST['last_name']);
 						<div class="signupform_text" style="font-size: 18px; text-align: center;">
 						<font face="bookman">
 							Email: '.$u_email.'<br>
-							Activation code sent to your email. <br>
-							Your activation code: '.$confirmCode.'
+							Copy of your Activation code: <br>
+							'.$confirmCode.'
 						</font></div></div>';
 						//}else {
 							//throw new Exception('Email is not valid!');
@@ -133,7 +133,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 <!doctype html>
 <html>
 	<head>
-		<title>Welcome to ebuybd online shop</title>
+		<title>Welcome to Group 8 online shop</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body class="home-welcome-text" style="background-image: url(image/homebackgrndimg2.png);">

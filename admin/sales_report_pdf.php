@@ -28,7 +28,7 @@ $page = file_get_contents("sales_report_pdf.php");
 $output = '
 		<html>
 		<head>
-			<title>Welcome to ebuybd online shop</title>
+			<title>Welcome to Group 8 online shop</title>
 			<link rel="stylesheet" type="text/css" href="../css/style.css">
 		</head>
 		<body style="">

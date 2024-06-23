@@ -75,7 +75,7 @@ $quan = $_POST['Quantity'];
 
 						
 						";
-						//if (@mail($uemail_db,"eBuyBD Product Order",$msg, "From:eBuyBD <no-reply@ebuybd.xyz>")) {
+						//if (@mail($uemail_db,"Group 8 Product Order",$msg, "From:Group 8 <no-reply@Group 8.xyz>")) {
 							
 						if(mysqli_query($con, "INSERT INTO orders (uid,pid,quantity,oplace,mobile,odate) VALUES ('$user','$poid',$quan,'$_POST[address]','$_POST[mobile]','$d')")){
 
