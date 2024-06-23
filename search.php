@@ -111,7 +111,7 @@ $search_value = trim($_GET['keywords']);
 						echo '
 							<ul style="float: left;">
 								<li style="float: left; padding: 0px 25px 25px 25px;">
-									<div class="home-prodlist-img"><a href="women/view_product.php?pid='.$id.'">
+									<div class="home-prodlist-img"><a href="OurProducts/view_product.php?pid='.$id.'">
 										<img src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi">
 										</a>
 										<div style="text-align: center; padding: 0 0 6px 0;"> <span style="font-size: 15px;">'.$pName.'</span><br> Price: '.$price.' Php</div>

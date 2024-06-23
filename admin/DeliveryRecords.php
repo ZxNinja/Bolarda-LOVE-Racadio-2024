@@ -86,9 +86,9 @@ else {
 					<th>Product Name</th>
 					<th>First Name</th>
 					<th>Last Name</th>
-					<th>Payent</th>
+					<th>Payment</th>
 					<th>Date of Delivery</th>
-					<th>Type of Delivery</th>
+					
 					<th>Delevery Address</th>
 				</tr>
 				<tr>
@@ -137,7 +137,7 @@ else {
 					<th><?php echo $olname; ?></th>
 					<th><?php echo ''.$oquantity.' * '.$oprice.' = '.$oquantity*$oprice.''; ?></th>
 					<th><?php echo $ddate; ?></th>
-					<th><?php echo $deliv; ?></th>
+					
 					<th><?php echo $oplace; ?></th>
 
 					

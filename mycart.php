@@ -315,6 +315,7 @@ $del = $_POST['Delivery'];
 										
 										<div>
 											<input onclick="myFunction()" name="order" class="uisignupbutton signupbutton" type="submit" value="Confirm Order">
+											
 										</div>
 										<div class="signup_error_msg"> '; ?>
 											<?php 

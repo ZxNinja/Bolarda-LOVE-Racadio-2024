@@ -106,8 +106,8 @@ else {
 									<th>Description</th>
 									<th>Price</th>
 									<th>Available</th>
-									<th>Category</th>
-									<th>Type</th>
+								
+							
 									<th>Item</th>
 									<th>P Code</th>
 									<th>Edit</th>
@@ -134,8 +134,8 @@ else {
 									<th><?php echo $descri; ?></th>
 									<th><?php echo $price; ?></th>
 									<th><?php echo $available; ?></th>
-									<th><?php echo $category; ?></th>
-									<th><?php echo $type; ?></th>
+									
+								
 									<th><?php echo $item; ?></th>
 									<th><?php echo $pCode; ?></th>
 									<th><?php echo '<div class="home-prodlist-img"><a href="editproduct.php?epid='.$id.'">

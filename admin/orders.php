@@ -91,10 +91,12 @@ else {
 					<th>Order Status</th>
 					<th>Order Date</th>
 					<th>Delevery Date</th>
+					
 					<th>User Name</th>
 					<th>User Mobile</th>
 					<th>User Email</th>
 					<th>Edit</th>
+					<th>Delivery Status</th>
 				</tr>
 				<tr>
 					<?php include ( "../inc/connect.inc.php");
@@ -110,6 +112,7 @@ else {
 						$odstatus = $row['dstatus'];
 						$odate = $row['odate'];
 						$ddate = $row['ddate'];
+						
 						//getting user info
 						$query1 = "SELECT * FROM user WHERE id='$ouid'";
 						$run1 = mysqli_query($con, $query1);
@@ -117,7 +120,7 @@ else {
 						$ofname = $row1['firstName'];
 						$oumobile = $row1['mobile'];
 						$ouemail = $row1['email'];
-
+						$delivery_confirmed = $row['delivery_confirmed'];
 						//product info
 						$query2 = "SELECT * FROM products WHERE id='$opid'";
 						$run2 = mysqli_query($con, $query2);
@@ -138,10 +141,11 @@ else {
 					<th><?php echo $odstatus; ?></th>
 					<th><?php echo $odate; ?></th>
 					<th><?php echo $ddate; ?></th>
-
+				
 					<th><?php echo $ofname; ?></th>
 					<th><?php echo $oumobile; ?></th>
 					<th><?php echo $ouemail; ?></th>
+					<th><?php echo $delivery_confirmed ? 'Delivered' : 'Pending'; ?></th>
 					<th><?php echo '<div class="home-prodlist-img"><a href="editorder.php?eoid='.$oid.'">
 									<img src="../image/product/'.$opitem.'/'.$oppicture.'" class="home-prodlist-imgi" style="height: 75px; width: 75px;">
 									</a>

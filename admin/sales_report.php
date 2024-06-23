@@ -73,7 +73,7 @@ else {
 					<th><a href="orders.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Orders</a></th>
 					<th><a href="DeliveryRecords.php" style="text-decoration: none;color:  #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">DeliveryRecords</a></th>
 					<th><a href="report.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #24bfae;border-radius: 12px;">Reports</a></th>
-					<th><a href="sales_report_pdf.php" style="text-decoration: none;color: #fff;padding: 4px 12px;background-color: #bc0987;border-radius: 12px;">Print</a></th>
+					
 
 				</tr>
 			</table>
