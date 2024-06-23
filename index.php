@@ -24,21 +24,22 @@ else {
 	<body style="min-width: 980px;">
 		<div class="homepageheader" style="position: relative;">
 			<div class="signinButton loginButton">
-				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
-					<?php 
+				
+					<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
+						<?php 
 						if ($user!="") {
 							echo '<a style="text-decoration: none; color: #fff;" href="logout.php">LOG OUT</a>';
 						}
 						else {
 							echo '<a style="color: #fff; text-decoration: none;" href="signin.php">SIGN UP</a>';
 						}
-					 ?>
+						?>
 					
 				</div>
 				<div class="uiloginbutton signinButton loginButton" style="">
 					<?php 
 						if ($user!="") {
-							echo '<a style="text-decoration: none; color: #fff;" href="profile.php?uid='.$user.'">Hi '.$uname_db.'</a>';
+							echo '<a style="text-decoration: none; color: #fff;" href="profile.php?uid='.$user.'">My Orders</a>';
 						}
 						else {
 							echo '<a style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>';
