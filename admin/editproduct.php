@@ -212,36 +212,14 @@ $search_value = "";
 									</div>
 									<div>
 
-									<div class="label_content11" style="float: left;">
-  											<h5>Piece(unit):</h5>
-  											</div>
-											<td >
-											<input name="piece" style="margin-left: 100px; id="piece" required="required" class="piece signupbox" type="text" size="30" value="'.$piece.'" >
-											</td>
-											</div></br>
-
-
-
-
-
-										<td>
-											<input name="available" placeholder="Available Quantity" required="required" class="email signupbox" type="text" size="30" value="'.$available.'">
-										</td>
-									</div>
+								
 									<div>
 										<td >
 											<input name="descri" id="first_name" placeholder="Description" required="required" class="first_name signupbox" type="text" size="30" value="'.$description.'" >
 										</td>
 									</div>
 									
-									<div>
-										<select name="type" required="required" style=" font-size: 20px;
-										font-style: italic;margin-bottom: 3px;margin-top: 0px;padding: 14px;line-height: 25px;border-radius: 4px;border: 1px solid #169E8F;color: #169E8F;margin-left: 0;width: 300px;background-color: transparent;" class="">
-											<option selected value="'.$type.'">'.$typeu.'</option>
-												<option value="clothing">Clothing</option>
-												<option value="other">Other</option>
-											</select>
-									</div>
+								
 									<div>
 										<td>
 											<select name="item" required="required" style=" font-size: 20px;

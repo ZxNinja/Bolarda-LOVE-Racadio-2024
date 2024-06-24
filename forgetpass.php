@@ -24,7 +24,7 @@
 			</div>
 			<div class="">
 				<div id="srcheader">
-					<form id="newsearch" method="get" action="http://www.google.com">
+					<form id="newsearch" method="get" action="search.php">
 					        <input type="text" class="srctextinput" name="q" size="21" maxlength="120"  placeholder="Search Here..."><input type="submit" value="search" class="srcbutton" >
 					</form>
 				<div class="srcclear"></div>

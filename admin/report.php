@@ -23,7 +23,7 @@ else {
 <!doctype html>
 <html>
 	<head>
-		<title>Welcome to Group 8 online shop</title>
+		<title>Welcome to Code Mart online shop</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 	</head>
 	<body class="home-welcome-text" style="background-image: url(../image/homebackgrndimg2.png);">
@@ -55,7 +55,7 @@ else {
 			</div>
 			<div class="">
 				<div id="srcheader">
-					<form id="newsearch" method="get" action="http://www.google.com">
+					<form id="newsearch" method="get" action="search.php">
 					        <input type="text" class="srctextinput" name="q" size="21" maxlength="120"  placeholder="Search Here..."><input type="submit" value="search" class="srcbutton" >
 					</form>
 				<div class="srcclear"></div>
@@ -85,24 +85,22 @@ else {
 		<div style="margin-top: 20px;">
 			<div style="width: 1200px; margin: 0 auto;">
 			
-				<ul>
-					<li style="float: left;">
-						<div class="settingsleftcontent">
-							<ul>
-								<ul>
-								<li><?php echo '<a href="report.php" style=" background-color: #169e8f; border-radius: 4px; color: #fff;" >List Of Products</a>'; ?></li>
-								<li><?php echo '<a href="all_customer.php" >All Customers</a>'; ?></li>
-								<li><?php echo '<a href="sales_report.php" >Sales Reports</a>'; ?></li>
-							</ul>
-							</ul>
-						</div>
-					</li>
-					<li style="float: right; background-color: #fff;">
+				<ul><li style="width: 100%; display: flex; justify-content: center;">
+    <div class="settingsleftcontent">
+        <ul>
+            <li><?php echo '<a href="report.php" style="background-color: #169e8f; border-radius: 4px; color: #fff;">List Of Products</a>'; ?></li>
+            <li><?php echo '<a href="all_customer.php">All Customers</a>'; ?></li>
+            <li><?php echo '<a href="sales_report.php">Sales Reports</a>'; ?></li>
+        </ul>
+    </div>
+</li>
+<br>
+					<li style="float: right; background-color: #fff; width: 100%;">
 						<div>
 							<table class="rightsidemenu">
 								<tr style="font-weight: bold;" colspan="10" bgcolor="#4DB849">
-									<th>Id</th>
-									<th>P Name</th>
+									<th style="width: 10%;">Id</th>
+									<th >P Name</th>
 									<th>Description</th>
 									<th>Price</th>
 									<th>Available</th>

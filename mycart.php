@@ -70,7 +70,7 @@ $del = $_POST['Delivery'];
 
 						
 						";
-						//if (@mail($uemail_db,"Group 8 Product Order",$msg, "From:Group 8 <no-reply@Group 8.xyz>")) {
+						//if (@mail($uemail_db,"Code Mart Product Order",$msg, "From:Code Mart <no-reply@Code Mart.xyz>")) {
 						$result = mysqli_query($con, "SELECT * FROM cart WHERE uid='$user'");
 						$t = mysqli_num_rows($result);
 						if($t <= 0) {

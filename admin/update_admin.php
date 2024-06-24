@@ -84,7 +84,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 					$confirmCode   = substr( rand() * 900000 + 100000, 0, 6 );
 					// send email
 					
-					//if (@mail($_POST['email'],"Group 8 Activation Code",$msg, "From:Group 8 <no-reply@Group 8.xyz>")) {
+					//if (@mail($_POST['email'],"Code Mart Activation Code",$msg, "From:Code Mart <no-reply@Code Mart.xyz>")) {
 					if($utype_db == 'admin'){
 						$result = mysqli_query($con, "UPDATE admin SET firstName='$_POST[first_name]', lastName='$_POST[last_name]', email='$u_email', mobile='$u_mobile', address='$u_address', password='$_POST[password]', type='$u_admin_type' WHERE id='$user'");
 					}else{
@@ -126,7 +126,7 @@ $search_value = "";
 <!doctype html>
 <html>
 	<head>
-		<title>Welcome to Group 8 online shop</title>
+		<title>Welcome to Code Mart online shop</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 	</head>
 	<body class="home-welcome-text" style="background-image: url(../image/homebackgrndimg2.png);">

@@ -86,7 +86,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 						Signup email: ".$_POST['email']."
 						
 						";
-						//if (@mail($_POST['email'],"Group 8 Activation Code",$msg, "From:Group 8 <no-reply@Group 8.xyz>")) {
+						//if (@mail($_POST['email'],"Code Mart Activation Code",$msg, "From:Code Mart <no-reply@Code Mart.xyz>")) {
 							
 						$result = mysqli_query($con, "INSERT INTO user (firstName,lastName,email,mobile,address,password,confirmCode) VALUES ('$_POST[first_name]','$_POST[last_name]','$_POST[email]','$_POST[mobile]','$_POST[signupaddress]','$_POST[password]','$confirmCode')");
 						
@@ -133,7 +133,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 <!doctype html>
 <html>
 	<head>
-		<title>Welcome to Group 8 online shop</title>
+		<title>Welcome to Code Mart online shop</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body class="home-welcome-text" style="background-image: url(image/homebackgrndimg2.png);">
@@ -153,7 +153,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 			</div>
 			<div class="">
 				<div id="srcheader">
-					<form id="newsearch" method="get" action="http://www.google.com">
+					<form id="newsearch" method="get" action="search.php">
 					        <input type="text" class="srctextinput" name="q" size="21" maxlength="120"  placeholder="Search Here..."><input type="submit" value="search" class="srcbutton" >
 					</form>
 				<div class="srcclear"></div>

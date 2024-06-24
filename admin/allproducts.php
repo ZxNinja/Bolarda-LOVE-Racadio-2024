@@ -22,7 +22,7 @@ $search_value = "";
 <!doctype html>
 <html>
 	<head>
-		<title>Welcome to Group 8 online shop</title>
+		<title>Welcome to Code Mart online shop</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 	</head>
 	<body class="home-welcome-text" style="background-image: url(../image/homebackgrndimg2.png);">
@@ -54,7 +54,7 @@ $search_value = "";
 			</div>
 			<div class="">
 				<div id="srcheader">
-					<form id="newsearch" method="get" action="http://www.google.com">
+					<form id="newsearch" method="get" action="search.php">
 					        <input type="text" class="srctextinput" name="q" size="21" maxlength="120"  placeholder="Search Here..."><input type="submit" value="search" class="srcbutton" >
 					</form>
 				<div class="srcclear"></div>
